@@ -1,0 +1,5 @@
+case_id,shift_type,label,prediction,confidence,correct
+V1,viewpoint,statistics-0,statistics-0,0.55,true
+V2,context,statistics-1,statistics-0,0.65,false
+V3,annotation,statistics-0,statistics-0,0.75,true
+V4,domain,statistics-1,statistics-0,0.85,false

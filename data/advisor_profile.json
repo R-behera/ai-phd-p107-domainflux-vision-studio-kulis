@@ -1,0 +1,13 @@
+{
+  "professor": "Brian Kulis",
+  "university": "Boston University",
+  "program": "Computer Science PhD",
+  "research_area": "Machine learning, statistics, computer vision, metric learning",
+  "representative_paper": "Information-Theoretic Metric Learning; 2007; ICML",
+  "paper_link": "https://scholar.google.com/scholar?q=Information-Theoretic+Metric+Learning",
+  "project_family": "vision",
+  "focus": "statistics",
+  "value_add_artifact": "distribution-shift and failure-analysis benchmark for vision/multimodal models",
+  "next_step": "Replace seed cases with public/lab visual examples and run one real pretrained baseline.",
+  "generated_for": "professor outreach value-add starter"
+}
