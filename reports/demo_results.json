@@ -15,6 +15,46 @@
   "next_step": "Replace seed cases with public/lab visual examples and run one real pretrained baseline.",
   "professor": "Brian Kulis",
   "project_family": "vision",
+  "proposed_method": {
+    "algorithm_id": "P107-Kulis-Statistics",
+    "algorithm_name": "KulisCausalStatisticsRankAgent",
+    "core_mechanism": "prioritizes distribution-shift failures with confidence-aware calibration penalties",
+    "decision_rule": "Rank seed cases by vision-specific priority score with Kulis-aligned focus term 'statistics'.",
+    "mean_priority_score": 0.4985,
+    "project_family": "vision",
+    "top_cases": [
+      {
+        "action": "add to professor-facing failure gallery",
+        "case_id": "V4",
+        "priority_score": 0.857,
+        "signals": {
+          "confidence_error": 0.85,
+          "correct": false,
+          "shift_type": "domain"
+        }
+      },
+      {
+        "action": "add to professor-facing failure gallery",
+        "case_id": "V2",
+        "priority_score": 0.793,
+        "signals": {
+          "confidence_error": 0.65,
+          "correct": false,
+          "shift_type": "context"
+        }
+      },
+      {
+        "action": "retain as calibration control",
+        "case_id": "V3",
+        "priority_score": 0.175,
+        "signals": {
+          "confidence_error": 0.25,
+          "correct": true,
+          "shift_type": "annotation"
+        }
+      }
+    ]
+  },
   "research_area": "Machine learning, statistics, computer vision, metric learning",
   "university": "Boston University",
   "value_add": "distribution-shift and failure-analysis benchmark for vision/multimodal models"
